@@ -1,0 +1,53 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": "./",
+    "outDir": "./dist/out-tsc",
+    "sourceMap": true,
+    "declaration": false,
+    "module": "es2015",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "lib": [
+      "es2017",
+      "dom"
+    ],
+    "paths": {
+      "my-lib": [
+        "dist/my-lib"
+      ],
+      "my-lib/*": [
+        "dist/my-lib/*"
+      ],
+      "my-lib-teste": [
+        "dist/my-lib-teste"
+      ],
+      "my-lib-teste/*": [
+        "dist/my-lib-teste/*"
+      ],
+      "my-lib-teste-teste": [
+        "dist/my-lib-teste-teste"
+      ],
+      "my-lib-teste-teste/*": [
+        "dist/my-lib-teste-teste/*"
+      ],
+      "ny-pipes": [
+        "dist/ny-pipes"
+      ],
+      "ny-pipes/*": [
+        "dist/ny-pipes/*"
+      ],
+      "ny-ng-pipes": [
+        "dist/ny-ng-pipes"
+      ],
+      "ny-ng-pipes/*": [
+        "dist/ny-ng-pipes/*"
+      ]
+    }
+  }
+}
