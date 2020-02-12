@@ -1,0 +1,5 @@
+- TARABALHAR NO PROJETO projects/ny-ng-pipes
+- BUILD: npm run BUILD
+- ENTRE NA PASTA DIST/ny ....
+- ALTERE A VERSAO DE PACKEAGE.JSON 
+- npm publish
