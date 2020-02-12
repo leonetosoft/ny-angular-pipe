@@ -10,6 +10,7 @@ import { FixedPipe } from './pipes/fixed.pipe';
 import { FlattenPipe } from './pipes/flatten.pipe';
 import { PtCalendarPipe } from './pipes/pt.format.date.pipe';
 import { TelPipe } from './pipes/tel.pipe';
+import { ValExtensoPipe } from './pipes/val.extenso.pipe';
 
 @NgModule({
   imports: [
@@ -23,7 +24,9 @@ import { TelPipe } from './pipes/tel.pipe';
     FixedPipe,
     FlattenPipe,
     PtCalendarPipe,
-    TelPipe],
+    TelPipe,
+    ValExtensoPipe
+  ],
   exports: [
     BrlPipe,
     CepPipe,
@@ -34,7 +37,8 @@ import { TelPipe } from './pipes/tel.pipe';
     FixedPipe,
     FlattenPipe,
     PtCalendarPipe,
-    TelPipe
+    TelPipe,
+    ValExtensoPipe
   ]
 })
 export class NyNgPipesModule { }
