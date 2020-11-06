@@ -12,14 +12,14 @@
   },
   "private": false,
   "dependencies": {
-    "@angular/animations": "^8.2.14",
-    "@angular/common": "^8.2.14",
-    "@angular/compiler": "^8.2.14",
-    "@angular/core": "^8.2.14",
-    "@angular/forms": "^8.2.14",
-    "@angular/platform-browser": "^8.2.14",
-    "@angular/platform-browser-dynamic": "^8.2.14",
-    "@angular/router": "^8.2.14",
+    "@angular/animations": "^9.1.12",
+    "@angular/common": "^9.1.12",
+    "@angular/compiler": "^9.1.12",
+    "@angular/core": "^9.1.12",
+    "@angular/forms": "^9.1.12",
+    "@angular/platform-browser": "^9.1.12",
+    "@angular/platform-browser-dynamic": "^9.1.12",
+    "@angular/router": "^9.1.12",
     "core-js": "^2.5.4",
     "moment": "^2.24.0",
     "rxjs": "^6.6.3",
@@ -46,6 +46,6 @@
     "protractor": "~7.0.0",
     "ts-node": "~5.0.1",
     "tslint": "~6.1.0",
-    "typescript": "^3.9.7"
+    "typescript": "^3.7.5"
   }
 }
