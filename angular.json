@@ -143,9 +143,9 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/ny-pipes/ng-package.prod.json"
-            ,              "tsConfig": "projects/ny-pipes/tsconfig.lib.prod.json"
-}
+              "project": "projects/ny-pipes/ng-package.prod.json",
+              "tsConfig": "projects/ny-pipes/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -184,9 +184,9 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/ny-ng-pipes/ng-package.prod.json"
-            ,              "tsConfig": "projects/ny-ng-pipes/tsconfig.lib.prod.json"
-}
+              "project": "projects/ny-ng-pipes/ng-package.prod.json",
+              "tsConfig": "projects/ny-ng-pipes/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -212,5 +212,8 @@
       }
     }
   },
-  "defaultProject": "ny-angular-pipe"
+  "defaultProject": "ny-angular-pipe",
+  "cli": {
+    "analytics": "4bfe59fa-caa9-43b5-888e-09669edda29e"
+  }
 }
